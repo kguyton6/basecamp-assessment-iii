@@ -1,0 +1,54 @@
+.App-header{
+  font-family: cursive;
+  font-size: 36px;
+  
+}
+
+.button1 {
+  padding: 5px 14px;
+  background: rgba(44, 135, 255, 0.842);
+  font-size: 12px;
+  display: flex;
+  border-radius: 5px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-wrap: inherit;
+}
+
+.button1:hover{
+  background-color: rgba(0, 89, 255, 0.931);
+}
+.flex-form {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  text-align: stretch;
+  color: black;
+  justify-content: flex-start;
+  width: 90;
+  padding: 40px 20px 20px 40px;
+  background-color: rgba(230, 230, 230, 0.897);
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.field{
+  width: 50%;
+}
+
+.h1 {
+  font-size: 36px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-display: bold;
+  padding: 20px 500px 20px 500px 
+
+}
+
+.text{
+  height: 30%;
+}
+
+
+
