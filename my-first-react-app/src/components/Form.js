@@ -5,23 +5,22 @@ class Form extends Component {
     render (){
         return(
             <form>
-               <fieldset class="field">
                <div class="flex-form"> 
-                
+                <p>
                 First Name:
-                <input class="input1" 
+                <input className="input1" 
                 type="text" name="name" 
                 placeholder="First Name"/>
                 Last Name:
-                <input class="input1"
+                <input className="input1"
                  type="text" name="name" 
                  placeholder="Last Name"/>
+                 Feedback:
+                <textarea name="comment" className="text"/>
                 
-                Feedback:
-                <textarea name="comment" class="text"/>
-                </div>
-                </fieldset>
-            </form>
+               <footer className="App"/></p>
+            </div>
+         </form>  
         )
     }
 }

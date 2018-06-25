@@ -1,39 +1,51 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: rgb(99, 97, 97);
+}
+
+
 .App-header{
-  font-family: cursive;
-  font-size: 36px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 48px;
+  margin-left: 45px;
+  line-height: .5cm;
+  color: white;
+  
   
 }
 
 .button1 {
-  padding: 5px 14px;
+  width: 60px;
+  height: 25px;
   background: rgba(44, 135, 255, 0.842);
   font-size: 12px;
-  display: flex;
   border-radius: 5px;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  flex-wrap: inherit;
+  margin-left: 40px;
+  margin-bottom: 20px;
 }
 
 .button1:hover{
   background-color: rgba(0, 89, 255, 0.931);
 }
 .flex-form {
+  margin-left: 45px;
+  height: auto;
+  width: 600px;
   display: flex;
   flex-direction: column;
-  height: 700px;
-  text-align: stretch;
-  color: black;
-  justify-content: flex-start;
-  width: 90;
-  padding: 40px 20px 20px 40px;
   background-color: rgba(230, 230, 230, 0.897);
-  font-size: 25px;
-  font-family: 'Times New Roman', Times, serif;
 }
 
-.field{
-  width: 50%;
+input{
+  height: 25px;
+  width: 90%;
+  margin-left: 25px;
+  padding-bottom: 0;
+  padding-top: 0px;
 }
 
 .h1 {
@@ -42,12 +54,40 @@
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
   font-display: bold;
-  padding: 20px 500px 20px 500px 
+  
 
 }
 
 .text{
-  height: 30%;
+  height: 300px;
+  width: 90%;
+  flex-grow: 1;
+  padding: 0px;
+  margin-left: 25px;
+}
+
+p{
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-right: 20px;
+  line-height: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.flex-form1 {
+  margin-left: 45px;
+  height: auto;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(230, 230, 230, 0.897);
+}
+
+footer{
+ 
+  width: 100%;
+  margin-top: 60px;
+  
 }
 
 

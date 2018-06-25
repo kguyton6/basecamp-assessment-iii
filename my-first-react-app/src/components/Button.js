@@ -5,8 +5,8 @@ import React, { Component } from 'react'
 class Button extends Component {
     render(){
         return(
-           <div>
-            <button onClick={()=>alert("Under construction")} class="button1">Submit</button>
+          <div className="flex-form1">
+            <button onClick={()=>alert("Under Cunstruction")} className="button1">Submit</button>
         </div>
         )
     }       

@@ -9,16 +9,17 @@ import Form from './components/Form.js'
 class App extends Component {
   render() {
     return (
-      //<div className="App">
-        //<h1 className="App-header">Welcome</h1>
-         <div>
-         <body>
-             <Form/>
-             <Button/>
-            </body>
+  <body>
+      <div className="App">
+        <h1 className="App-header">Form</h1>
+        
+        <Form/>
+        <Button/>
+       <footer className="App">
+         </footer> 
       </div>
-      </div>
-    );
+  </body>
+    )
   }
 }
 
